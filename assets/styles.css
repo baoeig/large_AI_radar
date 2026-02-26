@@ -113,18 +113,40 @@ body::before {
   max-width: 760px;
 }
 
+.hero-tools {
+  margin-top: 14px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.hero-tool-btn {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--ink);
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.hero-tool-btn:hover {
+  background: linear-gradient(90deg, rgba(217, 72, 37, 0.12), rgba(15, 111, 127, 0.12));
+}
+
 .stats {
   margin-top: 18px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
 }
 
 .stat {
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.75);
-  border-radius: var(--radius);
-  padding: 12px 14px;
+  border-radius: 12px;
+  padding: 10px 10px;
+  min-width: 0;
 }
 
 .stat .k {
@@ -135,7 +157,7 @@ body::before {
 .stat .v {
   margin-top: 4px;
   font-family: "Bricolage Grotesque", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -350,7 +372,7 @@ select {
 }
 
 .news-card {
-  padding: 14px 18px;
+  padding: 8px 18px 3px;
   border-top: 1px solid rgba(22, 16, 13, 0.08);
   animation: fade-up 300ms ease;
 }
@@ -361,11 +383,12 @@ select {
 
 .meta-row {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 8px;
   align-items: center;
   font-size: 12px;
   color: var(--muted);
+  margin-top: 4px;
 }
 
 .site {
@@ -381,18 +404,32 @@ select {
 }
 
 .time {
-  margin-left: auto;
+  white-space: nowrap;
+  margin-top: 6px;
 }
 
 .title {
-  margin-top: 8px;
   display: inline-flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 1px;
   color: var(--ink);
   text-decoration: none;
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.3;
+  max-width: calc(100% - 190px);
+  padding-right: 10px;
+}
+
+.title-main {
+  display: inline;
+}
+
+.title-age {
+  margin-left: 4px;
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 400;
+  white-space: nowrap;
 }
 
 .title-sub {
@@ -400,10 +437,23 @@ select {
   font-size: 12px;
   line-height: 1.35;
   font-weight: 400;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(-2px);
+  transition: opacity 140ms ease, transform 140ms ease, max-height 140ms ease;
 }
 
-.title:hover {
+.title:hover,
+.title:focus-visible {
   color: var(--accent);
+}
+
+.title:hover .title-sub,
+.title:focus-visible .title-sub {
+  opacity: 1;
+  max-height: 3.2em;
+  transform: translateY(0);
 }
 
 .empty {
@@ -419,6 +469,11 @@ select {
   background: rgba(255, 255, 255, 0.76);
   backdrop-filter: blur(3px);
   overflow: hidden;
+  display: none;
+}
+
+.waytoagi-wrap[data-open="true"] {
+  display: block;
 }
 
 .waytoagi-head {
@@ -527,6 +582,163 @@ select {
   font-size: 13px;
 }
 
+.subsite-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.subsite-modal[hidden] {
+  display: none !important;
+}
+
+.subsite-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 9, 8, 0.52);
+}
+
+.subsite-panel {
+  position: relative;
+  width: min(980px, 100%);
+  max-height: min(90vh, 820px);
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 22px 58px rgba(20, 16, 13, 0.28);
+}
+
+.subsite-head {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.subsite-head h2 {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.subsite-close-btn {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 12px;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.subsite-meta {
+  padding: 10px 16px;
+  font-size: 12px;
+  color: var(--muted);
+  border-bottom: 1px solid rgba(24, 19, 16, 0.08);
+}
+
+.subsite-body {
+  overflow: auto;
+  padding: 10px 14px 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.subsite-group {
+  border: 1px solid rgba(24, 19, 16, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.subsite-group-toggle {
+  width: 100%;
+  background: rgba(15, 111, 127, 0.05);
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.subsite-group-toggle:hover {
+  background: rgba(15, 111, 127, 0.1);
+}
+
+.subsite-group[data-open="true"] .subsite-group-toggle {
+  border-bottom: 1px solid rgba(24, 19, 16, 0.08);
+}
+
+.subsite-group-title {
+  font-size: 14px;
+  font-weight: 700;
+  flex: 1;
+}
+
+.subsite-group-info {
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.subsite-arrow {
+  font-size: 10px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.subsite-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none !important;
+}
+
+.subsite-group[data-open="true"] > .subsite-list {
+  display: block !important;
+}
+
+.subsite-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: baseline;
+  padding: 8px 12px;
+  border-top: 1px solid rgba(24, 19, 16, 0.06);
+}
+
+.subsite-list li:first-child {
+  border-top: 0;
+}
+
+.subsite-source {
+  font-size: 13px;
+  word-break: break-all;
+}
+
+.subsite-count {
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.subsite-empty {
+  color: var(--muted);
+  font-size: 13px;
+}
+
 @media (max-width: 760px) {
   .shell {
     padding: 18px 12px 36px;
@@ -541,6 +753,10 @@ select {
     width: 52px;
     height: 52px;
     border-radius: 12px;
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .controls {
@@ -559,6 +775,25 @@ select {
     align-items: flex-start;
     gap: 8px;
     flex-direction: column;
+  }
+
+  .subsite-modal {
+    padding: 10px;
+  }
+
+  .subsite-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subsite-group-toggle {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title {
+    max-width: 100%;
+    padding-right: 0;
   }
 }
 

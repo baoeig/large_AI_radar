@@ -30,7 +30,27 @@
         </p>
 
         <section class="stats" id="stats"></section>
+
+        <div class="hero-tools">
+          <button id="subsiteSummaryBtn" class="hero-tool-btn" type="button">查看10站点子站点完整清单</button>
+          <button id="waytoagiToggleBtn" class="hero-tool-btn" type="button">WaytoAGI 更新日志</button>
+        </div>
       </header>
+
+      <section class="waytoagi-wrap" id="waytoagiWrap" data-open="false">
+        <div class="waytoagi-head">
+          <h2>WaytoAGI 更新日志</h2>
+          <div class="waytoagi-tools">
+            <div class="waytoagi-switch">
+              <button id="waytoagiTodayBtn" class="waytoagi-btn active" type="button">当天</button>
+              <button id="waytoagi7dBtn" class="waytoagi-btn" type="button">近7日</button>
+            </div>
+            <span id="waytoagiUpdatedAt">加载中...</span>
+          </div>
+        </div>
+        <div id="waytoagiMeta" class="waytoagi-meta"></div>
+        <div id="waytoagiList" class="waytoagi-list"></div>
+      </section>
 
       <section class="controls">
         <input id="searchInput" type="search" placeholder="搜索标题 / 来源" />
@@ -50,21 +70,6 @@
       </section>
       <div class="mode-hint" id="modeHint">当前视图：AI强相关</div>
 
-      <section class="waytoagi-wrap">
-        <div class="waytoagi-head">
-          <h2>WaytoAGI 更新日志</h2>
-          <div class="waytoagi-tools">
-            <div class="waytoagi-switch">
-              <button id="waytoagiTodayBtn" class="waytoagi-btn active" type="button">当天</button>
-              <button id="waytoagi7dBtn" class="waytoagi-btn" type="button">近7日</button>
-            </div>
-            <span id="waytoagiUpdatedAt">加载中...</span>
-          </div>
-        </div>
-        <div id="waytoagiMeta" class="waytoagi-meta"></div>
-        <div id="waytoagiList" class="waytoagi-list"></div>
-      </section>
-
       <section class="site-pills" id="sitePills"></section>
 
       <section class="list-wrap">
@@ -78,14 +83,27 @@
 
     <template id="itemTpl">
       <article class="news-card">
-        <div class="meta-row">
+        <a class="title" target="_blank" rel="noopener noreferrer"></a>
           <span class="site"></span>
+        <a class="title" target="_blank" rel="noopener noreferrer"></a>
+        <div class="meta-row">
           <span class="source"></span>
           <time class="time"></time>
         </div>
-        <a class="title" target="_blank" rel="noopener noreferrer"></a>
       </article>
     </template>
+
+    <div id="subsiteModal" class="subsite-modal" hidden>
+      <div id="subsiteModalBackdrop" class="subsite-backdrop"></div>
+      <section class="subsite-panel" role="dialog" aria-modal="true" aria-labelledby="subsiteModalTitle">
+        <header class="subsite-head">
+          <h2 id="subsiteModalTitle">10站点子站点完整清单（24h全量）</h2>
+          <button id="subsiteModalCloseBtn" class="subsite-close-btn" type="button" aria-label="关闭">关闭</button>
+        </header>
+        <div id="subsiteModalMeta" class="subsite-meta">加载中...</div>
+        <div id="subsiteModalBody" class="subsite-body"></div>
+      </section>
+    </div>
 
     <script src="./assets/app.js" defer></script>
   </body>

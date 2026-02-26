@@ -2,9 +2,27 @@
 
 中文 | [English](#english)
 
+> 本项目基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 二次开发，原始版本来自 https://github.com/LearnPrompt/ai-news-radar
+
 高质量 AI/科技新闻聚合项目，支持静态网页展示、24h 增量更新、WaytoAGI 更新日志、OPML RSS 批量接入、失败源替换与告警。
 
-说明：本仓库已适配公开发布，**不会包含作者私有 RSS 订阅文件**。
+## 二次开发改动
+
+- **页面显示优化**：
+  - 调整统计卡片布局为 6 列一行显示
+  - 压缩新闻条目上下间距，提升信息密度
+  - 标题右侧增加提前换行边界，避免与时间/分区重叠
+  - 标题悬停时显示英文翻译（原版为常显）
+- **新增站点说明功能**：
+  - 点击按钮弹出 modal，展示 10 个主站点各自包含的子站点完整清单
+  - 子站点默认折叠，点击可展开查看详情
+- **新增发布时间显示**：
+  - 标题结束后直接显示相对时间（如"7小时前"、"2天前"）
+
+## 下一步开发计划
+
+- 增加更多 RSS 订阅源
+- 增强去重设置选项（如按来源去重、按标题去重、相似度阈值等）
 
 ## 中文
 
@@ -89,7 +107,27 @@ python -m http.server 8080
 
 ## English
 
+> This project is a fork of [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar). Original repo: https://github.com/LearnPrompt/ai-news-radar
+
 Production-grade AI/tech news aggregator with a static web UI, 24h updates, WaytoAGI timeline, and OPML RSS ingestion.
+
+### Fork Changes
+
+- **UI refinements**:
+  - Stats cards displayed in 6-column single row
+  - Reduced vertical spacing between news items for higher information density
+  - Title wraps earlier to avoid overlapping with time/source tags
+  - English translation shown on hover only (original always visible)
+- **New site overview feature**:
+  - Button opens modal showing complete subsite list for each of the 10 main sources
+  - Subsites collapsed by default, expandable on click
+- **New relative timestamp**:
+  - Displays relative time after title (e.g., "7 hours ago", "2 days ago")
+
+### Next Steps
+
+- Add more RSS feed sources
+- Enhance deduplication settings (by source, by title, similarity threshold, etc.)
 
 This repo is safe for public release and does **not** include the maintainer's private RSS subscription file.
 

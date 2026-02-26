@@ -35,6 +35,27 @@ const waytoagiMetaEl = document.getElementById("waytoagiMeta");
 const waytoagiListEl = document.getElementById("waytoagiList");
 const waytoagiTodayBtnEl = document.getElementById("waytoagiTodayBtn");
 const waytoagi7dBtnEl = document.getElementById("waytoagi7dBtn");
+const waytoagiWrapEl = document.getElementById("waytoagiWrap");
+const waytoagiToggleBtnEl = document.getElementById("waytoagiToggleBtn");
+const subsiteSummaryBtnEl = document.getElementById("subsiteSummaryBtn");
+const subsiteModalEl = document.getElementById("subsiteModal");
+const subsiteModalBackdropEl = document.getElementById("subsiteModalBackdrop");
+const subsiteModalCloseBtnEl = document.getElementById("subsiteModalCloseBtn");
+const subsiteModalMetaEl = document.getElementById("subsiteModalMeta");
+const subsiteModalBodyEl = document.getElementById("subsiteModalBody");
+
+const PRIMARY_SITE_ORDER = [
+  ["techurls", "TechURLs"],
+  ["buzzing", "Buzzing"],
+  ["iris", "Info Flow"],
+  ["bestblogs", "BestBlogs"],
+  ["tophub", "TopHub"],
+  ["zeli", "Zeli"],
+  ["aihubtoday", "AI HubToday"],
+  ["aibase", "AIbase"],
+  ["aihot", "AI今日热榜"],
+  ["newsnow", "NewsNow"],
+];
 
 function fmtNumber(n) {
   return new Intl.NumberFormat("zh-CN").format(n || 0);
@@ -60,6 +81,127 @@ function fmtDate(iso) {
     month: "2-digit",
     day: "2-digit",
   }).format(d);
+}
+
+function fmtAgo(iso) {
+  if (!iso) return "";
+  const ts = new Date(iso).getTime();
+  if (Number.isNaN(ts)) return "";
+  const diffMs = Date.now() - ts;
+  if (diffMs <= 0) return "（刚刚）";
+
+  const minutes = Math.floor(diffMs / (60 * 1000));
+  if (minutes < 60) return `（${Math.max(1, minutes)}分钟前）`;
+
+  const hours = Math.floor(diffMs / (60 * 60 * 1000));
+  if (hours < 24) return `（${hours}小时前）`;
+
+  const days = Math.floor(diffMs / (24 * 60 * 60 * 1000));
+  return `（${days}天前）`;
+}
+
+function primarySiteNameMap(siteStats) {
+  const nameMap = new Map(PRIMARY_SITE_ORDER);
+  (siteStats || []).forEach((row) => {
+    if (!row?.site_id) return;
+    if (row.site_name) nameMap.set(row.site_id, row.site_name);
+  });
+  return nameMap;
+}
+
+function buildSubsiteSummary(payload) {
+  const items = payload?.items_all_raw || payload?.items_all || payload?.items || [];
+  const siteStats = payload?.site_stats || [];
+  const nameMap = primarySiteNameMap(siteStats);
+  const allSites = new Map();
+
+  PRIMARY_SITE_ORDER.forEach(([siteId]) => {
+    allSites.set(siteId, new Map());
+  });
+
+  items.forEach((item) => {
+    const siteId = String(item?.site_id || "").trim();
+    if (!siteId || !allSites.has(siteId)) return;
+    const source = String(item?.source || "").trim() || "未分区";
+    const sourceCounter = allSites.get(siteId);
+    sourceCounter.set(source, (sourceCounter.get(source) || 0) + 1);
+  });
+
+  return PRIMARY_SITE_ORDER.map(([siteId, fallbackName]) => {
+    const counter = allSites.get(siteId) || new Map();
+    const subsites = Array.from(counter.entries())
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"))
+      .map(([source, count]) => ({ source, count }));
+    const total = subsites.reduce((acc, row) => acc + row.count, 0);
+    return {
+      site_id: siteId,
+      site_name: nameMap.get(siteId) || fallbackName,
+      subsite_count: subsites.length,
+      total_count: total,
+      subsites,
+    };
+  });
+}
+
+function renderSubsiteSummary(payload) {
+  if (!subsiteModalBodyEl || !subsiteModalMetaEl) return;
+  const rows = buildSubsiteSummary(payload);
+  subsiteModalBodyEl.innerHTML = "";
+
+  const totalSubsites = rows.reduce((acc, row) => acc + row.subsite_count, 0);
+  const totalItems = rows.reduce((acc, row) => acc + row.total_count, 0);
+  subsiteModalMetaEl.textContent = `共 ${fmtNumber(rows.length)} 个主站点，${fmtNumber(totalSubsites)} 个子站点，${fmtNumber(totalItems)} 条24h全量记录。`;
+
+  rows.forEach((row) => {
+    const sec = document.createElement("div");
+    sec.className = "subsite-group";
+
+    const toggleHtml = `
+      <div class="subsite-group-toggle" role="button" tabindex="0">
+        <span class="subsite-group-title">${row.site_name} (${row.site_id})</span>
+        <span class="subsite-group-info">${fmtNumber(row.subsite_count)} 个子站点 / ${fmtNumber(row.total_count)} 条</span>
+        <span class="subsite-arrow">▶</span>
+      </div>
+    `;
+    sec.insertAdjacentHTML("beforeend", toggleHtml);
+
+    let listHtml = '<ul class="subsite-list">';
+    if (!row.subsites.length) {
+      listHtml += '<li class="subsite-empty">(无数据)</li>';
+    } else {
+      row.subsites.forEach((sub) => {
+        listHtml += `<li><span class="subsite-source">${sub.source}</span><span class="subsite-count">${fmtNumber(sub.count)}</span></li>`;
+      });
+    }
+    listHtml += "</ul>";
+    sec.insertAdjacentHTML("beforeend", listHtml);
+
+    const toggleEl = sec.querySelector(".subsite-group-toggle");
+    const arrowEl = sec.querySelector(".subsite-arrow");
+
+    toggleEl.onclick = function (evt) {
+      evt.stopPropagation();
+      const wasOpen = sec.dataset.open === "true";
+      sec.dataset.open = wasOpen ? "false" : "true";
+      arrowEl.textContent = wasOpen ? "▶" : "▼";
+    };
+
+    subsiteModalBodyEl.appendChild(sec);
+  });
+}
+
+function openSubsiteModal() {
+  if (!subsiteModalEl) return;
+  subsiteModalEl.hidden = false;
+  subsiteModalEl.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+}
+
+function closeSubsiteModal() {
+  if (!subsiteModalEl) return;
+  subsiteModalEl.hidden = true;
+  subsiteModalEl.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
 }
 
 function setStats(payload) {
@@ -173,24 +315,38 @@ function getFilteredItems() {
 
 function renderItemNode(item) {
   const node = itemTpl.content.firstElementChild.cloneNode(true);
-  node.querySelector(".site").textContent = item.site_name;
-  node.querySelector(".source").textContent = `分区: ${item.source}`;
+  node.querySelector(".source").textContent = item.source || "未分区";
   node.querySelector(".time").textContent = fmtTime(item.published_at || item.first_seen_at);
+  const ageText = fmtAgo(item.published_at || item.first_seen_at);
 
   const titleEl = node.querySelector(".title");
   const zh = (item.title_zh || "").trim();
   const en = (item.title_en || "").trim();
   titleEl.textContent = "";
+
+  const makeAgeSpan = () => {
+    const span = document.createElement("span");
+    span.className = "title-age";
+    span.textContent = ageText;
+    return span;
+  };
+
   if (zh && en && zh !== en) {
     const primary = document.createElement("span");
+    primary.className = "title-main";
     primary.textContent = zh;
+    if (ageText) primary.appendChild(makeAgeSpan());
     const sub = document.createElement("span");
     sub.className = "title-sub";
     sub.textContent = en;
     titleEl.appendChild(primary);
     titleEl.appendChild(sub);
   } else {
-    titleEl.textContent = item.title || zh || en;
+    const primary = document.createElement("span");
+    primary.className = "title-main";
+    primary.textContent = item.title || zh || en;
+    if (ageText) primary.appendChild(makeAgeSpan());
+    titleEl.appendChild(primary);
   }
   titleEl.href = item.url;
   return node;
@@ -381,6 +537,7 @@ async function init() {
     state.generatedAt = payload.generated_at;
 
     setStats(payload);
+    renderSubsiteSummary(payload);
     renderModeSwitch();
     renderSiteFilters();
     renderList();
@@ -398,6 +555,32 @@ async function init() {
     waytoagiListEl.innerHTML = `<div class="waytoagi-error">${waytoagiResult.reason.message}</div>`;
   }
 }
+
+if (waytoagiToggleBtnEl && waytoagiWrapEl) {
+  waytoagiToggleBtnEl.addEventListener("click", () => {
+    const isOpen = waytoagiWrapEl.dataset.open === "true";
+    waytoagiWrapEl.dataset.open = isOpen ? "false" : "true";
+    waytoagiToggleBtnEl.textContent = isOpen ? "WaytoAGI 更新日志" : "收起 WaytoAGI";
+  });
+}
+
+if (subsiteSummaryBtnEl) {
+  subsiteSummaryBtnEl.addEventListener("click", openSubsiteModal);
+}
+
+if (subsiteModalCloseBtnEl) {
+  subsiteModalCloseBtnEl.addEventListener("click", closeSubsiteModal);
+}
+
+if (subsiteModalBackdropEl) {
+  subsiteModalBackdropEl.addEventListener("click", closeSubsiteModal);
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && subsiteModalEl && !subsiteModalEl.hidden) {
+    closeSubsiteModal();
+  }
+});
 
 searchInputEl.addEventListener("input", (e) => {
   state.query = e.target.value;
