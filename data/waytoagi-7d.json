@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-03-02T14:40:55.841770Z",
+  "generated_at": "2026-03-02T15:36:52.831449Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-02",
-  "count_today": 3,
+  "count_today": 4,
   "updates_today": [
     {
       "date": "2026-03-02",
       "title": "饼干哥哥带你解锁OpenClaw本地部署的新玩法，他打造的5个AI数字员工多Agent团队，可以全自动搞定跨境电商选品调研、社媒引流、平台运营全链路！本篇文章全盘托出了这套流水线的底层架构、协作逻辑，还有飞书从0到1的保姆级配置教程，是跨境从业者打造高效低成本的运营方案！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-02",
+      "title": "这篇OpenClaw全方位指南从部署成本拆解，到国内可用的云端主机、高性价比LLM API套餐及零代码托管方案，覆盖了不同预算需求。还详解了25个工具、53个技能的配置逻辑，搭配审批机制、路径锁定等5大安全防护来规避风险。快来上手试试！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -23,11 +28,16 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 44,
+  "count_7d": 45,
   "updates_7d": [
     {
       "date": "2026-03-02",
       "title": "饼干哥哥带你解锁OpenClaw本地部署的新玩法，他打造的5个AI数字员工多Agent团队，可以全自动搞定跨境电商选品调研、社媒引流、平台运营全链路！本篇文章全盘托出了这套流水线的底层架构、协作逻辑，还有飞书从0到1的保姆级配置教程，是跨境从业者打造高效低成本的运营方案！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-02",
+      "title": "这篇OpenClaw全方位指南从部署成本拆解，到国内可用的云端主机、高性价比LLM API套餐及零代码托管方案，覆盖了不同预算需求。还详解了25个工具、53个技能的配置逻辑，搭配审批机制、路径锁定等5大安全防护来规避风险。快来上手试试！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
