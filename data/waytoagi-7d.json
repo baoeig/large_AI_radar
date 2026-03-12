@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-03-12T13:59:10.699435Z",
+  "generated_at": "2026-03-12T14:54:38.152681Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-12",
-  "count_today": 3,
+  "count_today": 4,
   "updates_today": [
+    {
+      "date": "2026-03-12",
+      "title": "小白入门OpenClaw不用愁！这份免费开源的实战指南不容错过，苍何耗时数月打磨，从Windows WSL配置、一键部署等基础操作，到数字人制作、小红书封面生成、第二大脑搭建等趣味场景，每一步都有实操截图和具体命令，把坑点难点一一拆解。更贴心打包了精选Skills，不管你懂不懂代码，都能跟着快速上手，轻松解锁OpenClaw的核心玩法。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-12",
       "title": "台大李宏毅教授最近用了整堂课的时间，以 OpenClaw 这个开源 AI Agent 为例，把 AI Agent 背后的运作原理拆解得非常清楚。从 System Prompt 怎么构造人格，到工具调用、子代机制、记忆系统、心跳排程，再到 Context Engineering 这个核心概念，每个环节都用具体例子说明。这篇文章把课程中最值得理解的技术要点整理出来，帮你真正搞懂 AI Agent 到底在干什么。",
@@ -23,8 +28,13 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 41,
+  "count_7d": 42,
   "updates_7d": [
+    {
+      "date": "2026-03-12",
+      "title": "小白入门OpenClaw不用愁！这份免费开源的实战指南不容错过，苍何耗时数月打磨，从Windows WSL配置、一键部署等基础操作，到数字人制作、小红书封面生成、第二大脑搭建等趣味场景，每一步都有实操截图和具体命令，把坑点难点一一拆解。更贴心打包了精选Skills，不管你懂不懂代码，都能跟着快速上手，轻松解锁OpenClaw的核心玩法。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-12",
       "title": "台大李宏毅教授最近用了整堂课的时间，以 OpenClaw 这个开源 AI Agent 为例，把 AI Agent 背后的运作原理拆解得非常清楚。从 System Prompt 怎么构造人格，到工具调用、子代机制、记忆系统、心跳排程，再到 Context Engineering 这个核心概念，每个环节都用具体例子说明。这篇文章把课程中最值得理解的技术要点整理出来，帮你真正搞懂 AI Agent 到底在干什么。",
