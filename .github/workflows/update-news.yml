@@ -40,9 +40,25 @@ jobs:
       - name: Update data
         run: |
           if [ -f feeds/follow.opml ]; then
-            python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml feeds/follow.opml
+            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 7 --rss-opml feeds/follow.opml
           else
-            python scripts/update_news.py --output-dir data --window-hours 24
+            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 7
+          fi
+
+      - name: Guard archive size
+        run: |
+          MAX_SIZE=$((95 * 1024 * 1024))
+          ARCHIVE="data/archive.json"
+          if [ -f "$ARCHIVE" ]; then
+            FILE_SIZE=$(stat --format=%s "$ARCHIVE")
+            echo "archive.json size: $((FILE_SIZE / 1024 / 1024)) MB"
+            if [ "$FILE_SIZE" -gt "$MAX_SIZE" ]; then
+              echo "WARNING: archive.json ($((FILE_SIZE / 1024 / 1024)) MB) exceeds 95 MB safety limit."
+              echo "Trimming archive to 3 days..."
+              python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 3
+              NEW_SIZE=$(stat --format=%s "$ARCHIVE")
+              echo "After trim: $((NEW_SIZE / 1024 / 1024)) MB"
+            fi
           fi
 
       - name: Commit and push changes
