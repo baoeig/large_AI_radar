@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-03-22T17:20:19.323578Z",
+  "generated_at": "2026-03-22T17:49:09.526735Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-22",
-  "count_today": 3,
+  "count_today": 4,
   "updates_today": [
     {
       "date": "2026-03-22",
       "title": "这期访谈围绕AI agents的快速崛起所带来的产业变化展开讨论。在近期生成式AI与Agent工具能力跃迁的背景下，四位YC合伙人结合一线创业观察与亲身使用体验，探讨agent如何改变软件使用方式、开发者工具的分发逻辑以及未来产品设计原则。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "微信终于下场，做了第一个真正意义上让 外部AI接入微信 的功能。微信本次提供的方案， 本质上是一种信息传递桥梁，既然能够把OpenClaw的信息传到微信上，那么任意Agent的信息都将能够接到微信上。于是，梦飞下午研究了这个插件，并且进行了改造。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -23,11 +28,16 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 29,
+  "count_7d": 30,
   "updates_7d": [
     {
       "date": "2026-03-22",
       "title": "这期访谈围绕AI agents的快速崛起所带来的产业变化展开讨论。在近期生成式AI与Agent工具能力跃迁的背景下，四位YC合伙人结合一线创业观察与亲身使用体验，探讨agent如何改变软件使用方式、开发者工具的分发逻辑以及未来产品设计原则。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "微信终于下场，做了第一个真正意义上让 外部AI接入微信 的功能。微信本次提供的方案， 本质上是一种信息传递桥梁，既然能够把OpenClaw的信息传到微信上，那么任意Agent的信息都将能够接到微信上。于是，梦飞下午研究了这个插件，并且进行了改造。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
