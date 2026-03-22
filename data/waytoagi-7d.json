@@ -1,20 +1,40 @@
 {
-  "generated_at": "2026-03-22T16:53:23.043987Z",
+  "generated_at": "2026-03-22T17:20:19.323578Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-22",
-  "count_today": 1,
+  "count_today": 3,
   "updates_today": [
+    {
+      "date": "2026-03-22",
+      "title": "这期访谈围绕AI agents的快速崛起所带来的产业变化展开讨论。在近期生成式AI与Agent工具能力跃迁的背景下，四位YC合伙人结合一线创业观察与亲身使用体验，探讨agent如何改变软件使用方式、开发者工具的分发逻辑以及未来产品设计原则。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "当下AI Agent普遍存在工具隔离、联动困难、部署繁琐的痛点，而Taku凭借三层Harness架构给出了全新解法。区别于Claude Code天然隔离的设计，Taku更贴合普通用户，降低了组装、分发AI能力的门槛，普通人也能一键串联各类工作流，快速搭建专属复合工具。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-22",
       "title": "2026年2月，Forsgren在Gergely Orosz主办的The Pragmatic Summit上做了一场对谈，覆盖 AI 时代的瓶颈转移、组织流程债务、度量陷阱和变革管理。让我们一同来一探究竟！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 27,
+  "count_7d": 29,
   "updates_7d": [
+    {
+      "date": "2026-03-22",
+      "title": "这期访谈围绕AI agents的快速崛起所带来的产业变化展开讨论。在近期生成式AI与Agent工具能力跃迁的背景下，四位YC合伙人结合一线创业观察与亲身使用体验，探讨agent如何改变软件使用方式、开发者工具的分发逻辑以及未来产品设计原则。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "当下AI Agent普遍存在工具隔离、联动困难、部署繁琐的痛点，而Taku凭借三层Harness架构给出了全新解法。区别于Claude Code天然隔离的设计，Taku更贴合普通用户，降低了组装、分发AI能力的门槛，普通人也能一键串联各类工作流，快速搭建专属复合工具。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-22",
       "title": "2026年2月，Forsgren在Gergely Orosz主办的The Pragmatic Summit上做了一场对谈，覆盖 AI 时代的瓶颈转移、组织流程债务、度量陷阱和变革管理。让我们一同来一探究竟！",
