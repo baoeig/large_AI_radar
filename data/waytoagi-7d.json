@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-03-23T10:47:12.324575Z",
+  "generated_at": "2026-03-23T11:39:38.770186Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-23",
-  "count_today": 2,
+  "count_today": 3,
   "updates_today": [
+    {
+      "date": "2026-03-23",
+      "title": "部署完小龙虾后，一旦出现故障或需要修改配置文件，OpenClaw的配置文件看起来是不是像天书？本文档完整梳理了 OpenClaw 配置文件~/.openclaw/openclaw.json 中所有24个顶层字段的含义与用法，或许对你有帮助。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-23",
       "title": "一泽做的一个Skill，支持：一次性打开操作 100+ 浏览器网页、自动化模拟操作，发布各大社媒平台、帮你直接找 B 站、网飞等并自动打开播放、自动查美签系统，看可预约时间并预约、Agent 自动化测试 Web App等等。",
@@ -18,8 +23,13 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 34,
+  "count_7d": 35,
   "updates_7d": [
+    {
+      "date": "2026-03-23",
+      "title": "部署完小龙虾后，一旦出现故障或需要修改配置文件，OpenClaw的配置文件看起来是不是像天书？本文档完整梳理了 OpenClaw 配置文件~/.openclaw/openclaw.json 中所有24个顶层字段的含义与用法，或许对你有帮助。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-23",
       "title": "一泽做的一个Skill，支持：一次性打开操作 100+ 浏览器网页、自动化模拟操作，发布各大社媒平台、帮你直接找 B 站、网飞等并自动打开播放、自动查美签系统，看可预约时间并预约、Agent 自动化测试 Web App等等。",
