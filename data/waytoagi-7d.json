@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-24T15:40:05.937535Z",
+  "generated_at": "2026-03-24T16:54:20.071809Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-24",
-  "count_today": 5,
+  "count_today": 6,
   "updates_today": [
     {
       "date": "2026-03-24",
@@ -31,9 +31,14 @@
       "date": "2026-03-24",
       "title": "关于OpenClaw大家不仅仅在讨论怎么玩得更花，而更多的是两个字： 太贵 。以及另外两个字： 不安全 。甚至网上已经出现了 付费卸载龙虾 的笑话。今天这篇文章带大家使用 OpenClaw + n8n，打造更便宜、更安全的 Agent 。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-24",
+      "title": "为了保证小白也能在安卓手机部署成功OpenClaw，作者尝试了很多次，不停的优化方案，最终找到一条最合适的部署路线！本篇教程将详细介绍如何在安卓手机上零成本部署 OpenClaw，并通过飞书机器人实现对话交互。不需要额外的硬件投入，利用闲置手机就可以搭建 24 小时在线的AI助手。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 41,
+  "count_7d": 37,
   "updates_7d": [
     {
       "date": "2026-03-24",
@@ -58,6 +63,11 @@
     {
       "date": "2026-03-24",
       "title": "关于OpenClaw大家不仅仅在讨论怎么玩得更花，而更多的是两个字： 太贵 。以及另外两个字： 不安全 。甚至网上已经出现了 付费卸载龙虾 的笑话。今天这篇文章带大家使用 OpenClaw + n8n，打造更便宜、更安全的 Agent 。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-24",
+      "title": "为了保证小白也能在安卓手机部署成功OpenClaw，作者尝试了很多次，不停的优化方案，最终找到一条最合适的部署路线！本篇教程将详细介绍如何在安卓手机上零成本部署 OpenClaw，并通过飞书机器人实现对话交互。不需要额外的硬件投入，利用闲置手机就可以搭建 24 小时在线的AI助手。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -213,31 +223,6 @@
     {
       "date": "2026-03-19",
       "title": "Google 的 AI 设计工具 Stitch 昨天发了一次大更新，从 Labs 实验项目正式升级为 AI 原生设计平台。这次不是加个小功能那种升级，是整个产品形态变了。从一个\"用 AI 生成 UI 图片\"的工具，直接进化成了一个 AI 原生的软件设计平台。Google 给这个新方向起了个名字，叫 Vibe Design。让我们一同一探究竟！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-18",
-      "title": "这篇文章来自 Anthropic 内部团队的实战总结。Anthropic 内部活跃使用的 Skills 已经有几百个，文中的分类体系和编写技巧都是从这些真实的内部实践中提炼出来的。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-18",
-      "title": "谷歌官方发布五大Agent Skill设计模式并搭配可直接复用的代码示例，可以帮助开发者搭建稳定高效的智能体工作流。这套实战方法论或许也能帮你告别冗长杂乱的提示词，快速构建标准化、可复用的Agent，提升可靠性与开发效率。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-18",
-      "title": "养虾的最高境界，就是能养出每个组织（现在一个人OPC也是组织）里可以完美fit in业务场景的Agents。虽然虾各不同，但总是会存在一些非常重要基础设施明显优于绝大多数其他同类的。今天这篇文章给大家介绍视频下载界的瑞士军刀yt-dlp，它可以下载1700个网站的视频；如果你的工作流经常围绕视频展开（下载视频，提取音频，抽取文本，二次加工等等），你必然不能错过 yt-dlp。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-18",
-      "title": "《 Builders Unscripted 》是OpenAI官方推出的一档聚焦顶尖开发者的硬核对谈节目。在2026年2月25日首期节目中， Peter Steinberger 围绕 OpenClaw 、他在开源领域的历程，以及如何借助Codex进行构建展开了深入解析。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-18",
-      "title": "MiniMax M2.7模型发布，是MiniMax第一个模型深度参与迭代自己的模型。它能够自行构建复杂Agent Harness，并基于Agent Teams、复杂Skills、Tool Search tool 等能力，完成高度复杂的生产力任务。快来一起看看具体迭代了哪些内容！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
