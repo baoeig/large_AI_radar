@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-03-25T15:42:38.062525Z",
+  "generated_at": "2026-03-25T16:56:55.828943Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-25",
-  "count_today": 4,
+  "count_today": 5,
   "updates_today": [
     {
       "date": "2026-03-25",
       "title": "这篇文章是Anthropic工程师在实战中搞清楚的一件事： 要让 AI 真正做好长时间、复杂的任务，光靠一个聪明的模型是不够的。你需要设计一套系统。让我们一起来一探究竟！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "本篇文章带你一起从第一性原理出发，探讨为何管理AI智能体集群需要的是一个OS层，而非更好的框架，以及该层实际需要承担的任务。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -28,11 +33,16 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 41,
+  "count_7d": 36,
   "updates_7d": [
     {
       "date": "2026-03-25",
       "title": "这篇文章是Anthropic工程师在实战中搞清楚的一件事： 要让 AI 真正做好长时间、复杂的任务，光靠一个聪明的模型是不够的。你需要设计一套系统。让我们一起来一探究竟！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "本篇文章带你一起从第一性原理出发，探讨为何管理AI智能体集群需要的是一个OS层，而非更好的框架，以及该层实际需要承担的任务。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -203,36 +213,6 @@
     {
       "date": "2026-03-20",
       "title": "AI 发展日新月异，急速迭代，概念/技术/产品层出不穷。但是当前工作繁重（工作本身跟 AI 直接关系不大），即便是很多比较流行的 AI 相关的东西，也不可能都花时间去了解/理解/深度使用研究。一方面希望跟上 AI 的浪潮，另一方面目前的精力又不允许。哪些原则可以辅助做以下判断：“哪些东西不必花时间/哪些东西简单了解即可/哪些东西需要花一些时间去学习/哪些有必要深度使用学习”，以及为什么有这个原则",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "这篇文章带大家了解下Google Stitch这个产品是做什么的以及怎么更好的使用它。简单说，Stitch 就是\"你说，它画\"。告诉它你想要什么界面，它直接给你出设计稿，还支持导出到 Figma、AI Studio 等工具里。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "这篇文章主要讲 Agent 架构里几块最影响工程效果的内容，包括控制流、上下文工程、工具设计、记忆、多 Agent 组织、评测、追踪和安全，最后再用 OpenClaw 的实现把这些设计原则串起来看一遍。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "有没有想过，为什么有些人用OpenClaw特别顺手，三两下就能搞定复杂的活儿，而你让小龙虾帮忙做事，它总是\"听不懂人话\"？秘密就藏在一个叫Skill的小东西里。今天咱们用大白话聊聊这个 Skill 到底是啥，怎么用，保证你看完就能明白。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "今天，飞书举办 2026 年春季新品发布会。这场发布会 形式罕见 ：全程纯 Demo，没有 PPT。一共发布了 8 款产品，核心只有一件事： 让每个人在飞书里拥有自己的智能伙伴。发布的产品包括：飞书 aily（智能伙伴）、aily 专业版、飞书妙搭、多维表格 AI 搭建、AI 同传、会中 AI 纪要、安克 AI 录音豆、AnyGen × Lark（海外版）。让我们一同一览详情！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "Max Brodeur-Urbas 是 Gumloop 的联合创始人兼 CEO。这家公司刚拿了 Benchmark 领投的 5000 万美元 B 轮融资 ，客户包括 Instacart、Shopify、DoorDash、Gusto。在这之前，他是微软的一名普通工程师，因为过边境被遣返而被迫走上创业这条路。这次访谈来自 YouTube 频道 EO（Entrepreneur & Opportunities），来看看他都分享了哪些内容！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "Google 的 AI 设计工具 Stitch 昨天发了一次大更新，从 Labs 实验项目正式升级为 AI 原生设计平台。这次不是加个小功能那种升级，是整个产品形态变了。从一个\"用 AI 生成 UI 图片\"的工具，直接进化成了一个 AI 原生的软件设计平台。Google 给这个新方向起了个名字，叫 Vibe Design。让我们一同一探究竟！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
