@@ -1,12 +1,22 @@
 {
-  "generated_at": "2026-03-25T14:16:02.012094Z",
+  "generated_at": "2026-03-25T15:42:38.062525Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-25",
-  "count_today": 2,
+  "count_today": 4,
   "updates_today": [
+    {
+      "date": "2026-03-25",
+      "title": "这篇文章是Anthropic工程师在实战中搞清楚的一件事： 要让 AI 真正做好长时间、复杂的任务，光靠一个聪明的模型是不够的。你需要设计一套系统。让我们一起来一探究竟！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "最近小互一直研究 Claude Code 工作流，自动化搜集素材、处理素材、写文章、自动配图、自动排版、自动同步到各个平台。从今天开始他将陆续公布最近研究和实战的结果，帮助大家学习 Claude Code 工作流，如何实现各种复杂工作的自动化...",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-25",
       "title": "就在昨天，OpenAI 官方账号发布了一则简短的告别声明：“我们要和 Sora 说再见了。”不仅 App 关停、API 下线，就连原本计划接入 ChatGPT 的视频功能也一并搁置。这背后，究竟藏着怎样不为人知的深层原因？",
@@ -18,8 +28,18 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 39,
+  "count_7d": 41,
   "updates_7d": [
+    {
+      "date": "2026-03-25",
+      "title": "这篇文章是Anthropic工程师在实战中搞清楚的一件事： 要让 AI 真正做好长时间、复杂的任务，光靠一个聪明的模型是不够的。你需要设计一套系统。让我们一起来一探究竟！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "最近小互一直研究 Claude Code 工作流，自动化搜集素材、处理素材、写文章、自动配图、自动排版、自动同步到各个平台。从今天开始他将陆续公布最近研究和实战的结果，帮助大家学习 Claude Code 工作流，如何实现各种复杂工作的自动化...",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-25",
       "title": "就在昨天，OpenAI 官方账号发布了一则简短的告别声明：“我们要和 Sora 说再见了。”不仅 App 关停、API 下线，就连原本计划接入 ChatGPT 的视频功能也一并搁置。这背后，究竟藏着怎样不为人知的深层原因？",
