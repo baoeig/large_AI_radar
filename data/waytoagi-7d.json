@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-03-27T16:11:34.468400Z",
+  "generated_at": "2026-03-27T17:24:47.429428Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-27",
-  "count_today": 4,
+  "count_today": 5,
   "updates_today": [
     {
       "date": "2026-03-27",
       "title": "本篇文章是基于贺岁片《老马的AI囧途》项目经验整理，覆盖从选题到宣发的完整链路。有一定AI视频工具基础，想系统做AI影视项目的创作者一定不容错过！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "本文中，作者借助分层页面索引技术，构建了一套无需向量数据库、基于推理模型的RAG系统。这个系统会把文档转化为树形结构，再由大语言模型（LLM）通过推理遍历这个树形结构来获取答案，全程都不需要嵌入向量，也不需要相似度检索。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -28,11 +33,16 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 37,
+  "count_7d": 38,
   "updates_7d": [
     {
       "date": "2026-03-27",
       "title": "本篇文章是基于贺岁片《老马的AI囧途》项目经验整理，覆盖从选题到宣发的完整链路。有一定AI视频工具基础，想系统做AI影视项目的创作者一定不容错过！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "本文中，作者借助分层页面索引技术，构建了一套无需向量数据库、基于推理模型的RAG系统。这个系统会把文档转化为树形结构，再由大语言模型（LLM）通过推理遍历这个树形结构来获取答案，全程都不需要嵌入向量，也不需要相似度检索。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
