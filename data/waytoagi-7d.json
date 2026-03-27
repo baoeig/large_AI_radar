@@ -1,12 +1,22 @@
 {
-  "generated_at": "2026-03-27T15:13:38.031268Z",
+  "generated_at": "2026-03-27T16:11:34.468400Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-27",
-  "count_today": 2,
+  "count_today": 4,
   "updates_today": [
+    {
+      "date": "2026-03-27",
+      "title": "本篇文章是基于贺岁片《老马的AI囧途》项目经验整理，覆盖从选题到宣发的完整链路。有一定AI视频工具基础，想系统做AI影视项目的创作者一定不容错过！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "大多数AI助手的记忆存储方式是 线性JSONL文件 ——就像把所有笔记按时间顺序塞进一个抽屉，没有分类，没有索引，没有优先级。作者基于OpenClaw构建了一个 高级Memory系统，很好地解决了这一问题！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-27",
       "title": "Linkloud Talk 本期聊了一个过去一年被无数 AI 创业者反复提起、但又始终没有标准答案的话题：在产品高度同质化、推广成本持续上升的今天，一个产品到底是如何找到 PMF，又是如何完成冷启动与可持续增长。",
@@ -18,8 +28,18 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 41,
+  "count_7d": 37,
   "updates_7d": [
+    {
+      "date": "2026-03-27",
+      "title": "本篇文章是基于贺岁片《老马的AI囧途》项目经验整理，覆盖从选题到宣发的完整链路。有一定AI视频工具基础，想系统做AI影视项目的创作者一定不容错过！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "大多数AI助手的记忆存储方式是 线性JSONL文件 ——就像把所有笔记按时间顺序塞进一个抽屉，没有分类，没有索引，没有优先级。作者基于OpenClaw构建了一个 高级Memory系统，很好地解决了这一问题！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-03-27",
       "title": "Linkloud Talk 本期聊了一个过去一年被无数 AI 创业者反复提起、但又始终没有标准答案的话题：在产品高度同质化、推广成本持续上升的今天，一个产品到底是如何找到 PMF，又是如何完成冷启动与可持续增长。",
@@ -193,36 +213,6 @@
     {
       "date": "2026-03-22",
       "title": "2026年2月，Forsgren在Gergely Orosz主办的The Pragmatic Summit上做了一场对谈，覆盖 AI 时代的瓶颈转移、组织流程债务、度量陷阱和变革管理。让我们一同来一探究竟！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-21",
-      "title": "阿真这篇文章不讲那些更深奥的进阶知识。只分享她自己的一个超级适合小白且好用的写出自己需要的 Skill 的方法。当安装了这个 Skill 之后，你说“我想要通过访谈来新建 Skill”，这个 Skill 就会开始和你沟通，一步步向你提问。 然后在整个对话的过程中，它会逐步梳理清楚你的需求并输出 Skill。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-21",
-      "title": "这位 OpenAI 联合创始成员、前 Tesla AI 总监，现在是独立 AI 研究者和 Eureka Labs 创始人。他最近做客 Sarah Guo 的 No Priors 播客，聊了编码 Agent 如何改变工程师的日常、AutoResearch 与递归自我改进、AI 的“参差不齐”、开源与闭源的力量对比、物理世界 vs 数字世界的节奏差异，以及 Agent 时代教育的未来。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-21",
-      "title": "越来越多的岗位遭受到AI的冲击，这篇文章，作者想和所有画师、艺术生、创作者认真聊聊这件事。不是为了安慰你，而是想陪你把这件事真正想清楚。让你在时代变革中找准定位，化冲击为进阶动力。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-21",
-      "title": "大家对 OpenClaw 在企业管理端的想象力，明显比业务端弱。其实跨境公司的管理问题一点不比业务小：员工流失、知识断层、数据滞后、达人管理混乱，每一件都能搞垮一个正在增长的公司。饼干哥哥这篇文章就把他们团队真实在跑的几个场景拆开讲解，看看这千亿市场到底要怎么做？",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-21",
-      "title": "在 OpenClaw 的使用者里，有一条隐形的分界线。一边的人，每次跟 Agent 说话都像重新 onboarding：得再讲一遍背景、偏好和上下文。另一边的人，Agent 已经知道自己是谁、该怎么说话、用户讨厌什么，也记得上次积累下来的东西。这条分界线，叫 workspace 。更具体一点，就是默认情况下主 Agent 用的 ~/.openclaw/workspace/ 这一套文件(sub-agent也适用)。下面这篇文章，就把这套文件逐个拆开，说清楚它们各自管什么，以及最容易踩的坑是什么。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-03-21",
-      "title": "Telegram/Discord 的消息收发本身就需要特殊网络环境，用起来多了一层麻烦。这次我们不用官方插件了——直接自己动手写一个飞书（Lark）Channel 插件 ，让 Claude Code 变成你的飞书机器人。在地铁上、在床上、在马桶上，随时随地给 Claude 发消息让它帮你写代码！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
