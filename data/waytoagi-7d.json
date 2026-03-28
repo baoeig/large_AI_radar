@@ -1,23 +1,33 @@
 {
-  "generated_at": "2026-03-28T14:57:49.836400Z",
+  "generated_at": "2026-03-28T15:32:12.507455Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-28",
-  "count_today": 1,
+  "count_today": 2,
   "updates_today": [
     {
       "date": "2026-03-28",
       "title": "有人统计了Anthropic从2月1号到3月24号的产品发布记录，做了一张shipping calendar。数了一下： 52天，74次发布 。两个全新模型、一个桌面级Agent平台、一个手机远程控制系统、一个企业应用市场、一个代码安全扫描器、二十多个Claude Code的功能更新，以及十几个第三方连接器。让我们一同一探究竟！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "Simon Last 是 Notion 的联合创始人，也是 Notion AI 背后的核心推动者。他和另一位联合创始人 Ivan Zhao 在 2013 年创办 Notion，目前平台用户超过 1 亿。在这期访谈中，Simon 讲了 Notion AI 从 2022 年墨西哥全员大会上的 GPT-4 初体验开始，经历写作助手、语义搜索、通用 Agent 三四次失败，到最近发布 Custom Agent 的完整历程。他还分享了自己怎么用编码 Agent 工作以及 Notion 的使命如何从“帮人做事的工具”变成“帮人管理 Agent 的工具”。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 39,
+  "count_7d": 40,
   "updates_7d": [
     {
       "date": "2026-03-28",
       "title": "有人统计了Anthropic从2月1号到3月24号的产品发布记录，做了一张shipping calendar。数了一下： 52天，74次发布 。两个全新模型、一个桌面级Agent平台、一个手机远程控制系统、一个企业应用市场、一个代码安全扫描器、二十多个Claude Code的功能更新，以及十几个第三方连接器。让我们一同一探究竟！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "Simon Last 是 Notion 的联合创始人，也是 Notion AI 背后的核心推动者。他和另一位联合创始人 Ivan Zhao 在 2013 年创办 Notion，目前平台用户超过 1 亿。在这期访谈中，Simon 讲了 Notion AI 从 2022 年墨西哥全员大会上的 GPT-4 初体验开始，经历写作助手、语义搜索、通用 Agent 三四次失败，到最近发布 Custom Agent 的完整历程。他还分享了自己怎么用编码 Agent 工作以及 Notion 的使命如何从“帮人做事的工具”变成“帮人管理 Agent 的工具”。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
