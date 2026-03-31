@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-31T16:02:11.428550Z",
+  "generated_at": "2026-03-31T17:29:50.370487Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-03-31",
-  "count_today": 6,
+  "count_today": 7,
   "updates_today": [
     {
       "date": "2026-03-31",
@@ -29,6 +29,11 @@
     },
     {
       "date": "2026-03-31",
+      "title": "Claude Code的完整TypeScript源码，51.2万行，1903个文件，就这样暴露在了公网上。Claude Code和其他AI编程工具到底有什么本质区别？为什么它写代码的\"手感\"就是比别人好？51万行代码里，到底藏着什么？快来一探究竟！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-31",
       "title": "Anthropic 研究科学家 Nicholas Carlini 在 [un]prompted 2026 安全会议上用不到 25 分钟演示了一件事： 语言模型现在可以自主找到并利用零日漏洞 ，目标包括 Linux 内核这种被人类安全专家审计了几十年的软件。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
@@ -38,7 +43,7 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 36,
+  "count_7d": 37,
   "updates_7d": [
     {
       "date": "2026-03-31",
@@ -58,6 +63,11 @@
     {
       "date": "2026-03-31",
       "title": "WaytoAGI第五期「Openclaw小龙虾训练营」的课程已经进行了一半啦，在过去一周（2026年3月11日——2026年3月20日）我们收到了许多同学的作业投稿，经过层层筛选，最终精选出6位同学共11篇笔记分享给大家，希望大家有所收获，同时也感谢这几位同学的认真撰写。如果大家有好的想法想要投稿，记得通过下方二维码「作业投稿」和大家分享你的优秀作业笔记！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "Claude Code的完整TypeScript源码，51.2万行，1903个文件，就这样暴露在了公网上。Claude Code和其他AI编程工具到底有什么本质区别？为什么它写代码的\"手感\"就是比别人好？51万行代码里，到底藏着什么？快来一探究竟！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
