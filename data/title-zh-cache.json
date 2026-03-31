@@ -6721,5 +6721,12 @@
   "Anthropic's Claude Code Source Code Reportedly Leaked Via Their npm Registry (Guru Baran/Cyber Security News)": "据报道，Anthropic 的 Claude Code 源代码通过其 npm 注册表泄露（Guru Baran/网络安全新闻）",
   "Good code will still win": "好的代码仍然会获胜",
   "In Expanding de Sitter Space, Quantum Mechanics Gets More Elusive": "扩大德西特空间，量子力学变得更加难以捉摸",
-  "Accidentally created my first fork bomb with Claude Code": "意外地用 Claude Code 创建了我的第一个叉子炸弹"
+  "Accidentally created my first fork bomb with Claude Code": "意外地用 Claude Code 创建了我的第一个叉子炸弹",
+  "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode": "克劳德代码源泄漏：假工具、挫败正则表达式、卧底模式",
+  "From 300KB to 69KB per Token: How LLM Architectures Solve the KV Cache Problem": "每个令牌从 300KB 到 69KB：LLM 架构如何解决 KV 缓存问题",
+  "Claude Code users hitting usage limits 'way faster than expected'": "Claude Code 用户达到使用限制的速度“比预期快得多”",
+  "Building better AI benchmarks: How many raters are enough?": "建立更好的人工智能基准：有多少评估者就足够了？",
+  "Blueskys new AI is being rejected by users, blocked more than White House account": "Bluesky的新AI被用户拒绝，被封锁的人数超过白宫账户",
+  "'A hard truth for the AI era: don’t assume AI tools are secure by default': OpenAI patches flaw allowing silent data leakage from ChatGPT conversations without users ever knowing": "“人工智能时代的一个硬道理：不要假设人工智能工具默认是安全的”：OpenAI 修补了缺陷，导致 ChatGPT 对话中的数据在用户不知情的情况下悄然泄漏",
+  "Nobody is coming to save your career": "没有人会来拯救你的职业生涯"
 }
