@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-09T18:54:57.315785Z",
+  "generated_at": "2026-04-09T20:00:08.794235Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-04-09",
-  "count_today": 5,
+  "count_today": 6,
   "updates_today": [
     {
       "date": "2026-04-09",
@@ -15,6 +15,11 @@
     {
       "date": "2026-04-09",
       "title": "在这篇博客里，我们会学习 Mixture of Experts（MoE）架构，理解什么是 experts，router 如何选择它们，为什么 MoE 能让大模型更快、更便宜，以及为什么它驱动了如今很多最强大的大语言模型（LLMs）。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "即梦悄悄放出了一个新工具叫 Octo。目前还在内测阶段，小歪写这篇文章带大家一起拆解下。Octo 不是一个普通的AI生图或者生视频的工具 ，在一个画布上， 不仅可以生图、生视频，还可以并行的实时搜索，来给你的AI创作过程提供灵感或者资料佐证等 跟AI聊天，就能完成从想创意、定风格、设计角色、拆分镜到生成视频、剪辑导出的全部流程！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -33,7 +38,7 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 35,
+  "count_7d": 36,
   "updates_7d": [
     {
       "date": "2026-04-09",
@@ -43,6 +48,11 @@
     {
       "date": "2026-04-09",
       "title": "在这篇博客里，我们会学习 Mixture of Experts（MoE）架构，理解什么是 experts，router 如何选择它们，为什么 MoE 能让大模型更快、更便宜，以及为什么它驱动了如今很多最强大的大语言模型（LLMs）。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "即梦悄悄放出了一个新工具叫 Octo。目前还在内测阶段，小歪写这篇文章带大家一起拆解下。Octo 不是一个普通的AI生图或者生视频的工具 ，在一个画布上， 不仅可以生图、生视频，还可以并行的实时搜索，来给你的AI创作过程提供灵感或者资料佐证等 跟AI聊天，就能完成从想创意、定风格、设计角色、拆分镜到生成视频、剪辑导出的全部流程！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
