@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-04-22T16:06:25.625354Z",
+  "generated_at": "2026-04-22T17:30:51.648562Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-04-22",
-  "count_today": 3,
+  "count_today": 4,
   "updates_today": [
     {
       "date": "2026-04-22",
       "title": "大羽的这篇万字拆解完整公开了北影节入围AIGC短片《带你去玩球！》的全流程创作，涵盖角色场景资产打造、分镜设计、多模型图生视频与动画剪辑技巧，另外还分享了场景一致性、运镜控制等实战难点的解决方案。大羽用低成本实现了高质感视听效果，为大家个人AIGC影像创作提供了可复用的实战思路，快来一探究竟！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "乔木博客免费开源，专为内容创作者打造自主可控的知识阵地，可以摆脱平台封号与算法波动风险。系统集成了 AI 全流程辅助，写作与配图一步到位。此外还采用类飞书的所见即所得编辑器，支持多媒体插入与多状态发布，配合浏览器剪藏、Obsidian 一键发布等工具，大大降低了写作成本。快来试试！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -23,11 +28,16 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 31,
+  "count_7d": 32,
   "updates_7d": [
     {
       "date": "2026-04-22",
       "title": "大羽的这篇万字拆解完整公开了北影节入围AIGC短片《带你去玩球！》的全流程创作，涵盖角色场景资产打造、分镜设计、多模型图生视频与动画剪辑技巧，另外还分享了场景一致性、运镜控制等实战难点的解决方案。大羽用低成本实现了高质感视听效果，为大家个人AIGC影像创作提供了可复用的实战思路，快来一探究竟！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "乔木博客免费开源，专为内容创作者打造自主可控的知识阵地，可以摆脱平台封号与算法波动风险。系统集成了 AI 全流程辅助，写作与配图一步到位。此外还采用类飞书的所见即所得编辑器，支持多媒体插入与多状态发布，配合浏览器剪藏、Obsidian 一键发布等工具，大大降低了写作成本。快来试试！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
