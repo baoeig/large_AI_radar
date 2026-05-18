@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-05-18T16:43:57.700041Z",
+  "generated_at": "2026-05-18T18:27:36.850438Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-05-18",
-  "count_today": 4,
+  "count_today": 5,
   "updates_today": [
     {
       "date": "2026-05-18",
       "title": "本文解锁用Codex搭建完整 AI 视频制作工作流的实用玩法。它不止可以生成画面，更能统筹脚本撰写、分镜规划、素材整理、自动化剪辑与多轮自查迭代，化身全能制作搭档。作者手把手教你搭建专属视频技能体系，配齐本地工具与规范项目目录，搭配分阶段精准指令高效出片，新手也能快速上手产出各类商用优质视频。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "很多人刚开始用AI，会把注意力放在Prompt上：怎么写角色？怎么写格式？怎么让它一步步思考？这当然重要。可面对周期长、资料杂乱、需求多变的真实项目，单靠提示词根本无力维系稳定输出，极易出现信息断层、规则遗忘等问题。Prompt工程解决怎么说清楚，Context工程解决让模型看到什么，Harness工程解决如何让模型稳定做事。三者相融互补，学会这套完整使用逻辑，才能让 AI 稳稳承接复杂长线任务！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
@@ -28,11 +33,16 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 31,
+  "count_7d": 32,
   "updates_7d": [
     {
       "date": "2026-05-18",
       "title": "本文解锁用Codex搭建完整 AI 视频制作工作流的实用玩法。它不止可以生成画面，更能统筹脚本撰写、分镜规划、素材整理、自动化剪辑与多轮自查迭代，化身全能制作搭档。作者手把手教你搭建专属视频技能体系，配齐本地工具与规范项目目录，搭配分阶段精准指令高效出片，新手也能快速上手产出各类商用优质视频。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "很多人刚开始用AI，会把注意力放在Prompt上：怎么写角色？怎么写格式？怎么让它一步步思考？这当然重要。可面对周期长、资料杂乱、需求多变的真实项目，单靠提示词根本无力维系稳定输出，极易出现信息断层、规则遗忘等问题。Prompt工程解决怎么说清楚，Context工程解决让模型看到什么，Harness工程解决如何让模型稳定做事。三者相融互补，学会这套完整使用逻辑，才能让 AI 稳稳承接复杂长线任务！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
